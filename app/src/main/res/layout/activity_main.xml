@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6B4B4"
+    tools:context="com.example.marvelkt.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="263dp"
+        android:layout_height="141dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="Marvel"
+        android:textColor="#EC1000"
+        android:textSize="70sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86">
+
+
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="173dp"
+            android:layout_height="46dp"
+            android:text="Register"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.732" />
+
+        <Button
+            android:id="@+id/ButtonLogin"
+            android:layout_width="173dp"
+            android:layout_height="46dp"
+            android:text="login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.737" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/registration_layout"
+        layout="@layout/register"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/login_layout"
+        layout="@layout/login"
+        android:visibility="gone" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
