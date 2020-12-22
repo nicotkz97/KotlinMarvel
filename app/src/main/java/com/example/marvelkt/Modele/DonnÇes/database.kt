@@ -1,4 +1,4 @@
-package com.example.marvelkt
+package com.example.marvelkt.Modele.Données
 
 
 import android.content.ContentValues
@@ -6,7 +6,11 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-class database (context : Context) : SQLiteOpenHelper(context,dbname,factory, version){
+class database (context : Context) : SQLiteOpenHelper(context,
+    dbname,
+    factory,
+    version
+){
 
     companion object{
         internal val dbname = "database"

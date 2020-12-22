@@ -1,4 +1,4 @@
-package com.example.marvelkt
+package com.example.marvelkt.Modele.Données
 
 class Movie {
 

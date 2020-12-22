@@ -1,9 +1,13 @@
-package com.example.marvelkt
+package com.example.marvelkt.Vue
 
 import AdapterMovie
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.marvelkt.Modele.API.Base
+import com.example.marvelkt.Modele.Données.Movie
+import com.example.marvelkt.R
+import com.example.marvelkt.Modele.API.Retrofit
 import kotlinx.android.synthetic.main.recycler.*
 import retrofit2.Call
 import retrofit2.Callback

@@ -1,4 +1,4 @@
-package com.example.marvelkt
+package com.example.marvelkt.Vue
 
 import android.content.Intent
 import android.media.MediaPlayer.OnCompletionListener
@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.marvelkt.R
+import com.example.marvelkt.VueModele.MainActivity
 
 class VideoView : AppCompatActivity() {
 

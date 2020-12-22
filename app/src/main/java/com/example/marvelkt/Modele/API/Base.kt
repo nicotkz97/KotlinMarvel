@@ -1,4 +1,4 @@
-package com.example.marvelkt
+package com.example.marvelkt.Modele.API
 
 object Base {
 
@@ -6,5 +6,6 @@ object Base {
     private val BASE_URL = " https://raw.githubusercontent.com/nicotkz97/Marvel/master/app/src/main/java/com/example/marvel/"
 
     val retrofitService : Retrofit
-    get() = ClientRetrofit.getClient(BASE_URL).create(Retrofit::class.java)
+    get() = ClientRetrofit.getClient(BASE_URL)
+        .create(Retrofit::class.java)
 }

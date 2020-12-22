@@ -1,5 +1,6 @@
-package com.example.marvelkt
+package com.example.marvelkt.Modele.API
 
+import com.example.marvelkt.Modele.Données.Movie
 import retrofit2.http.GET
 import retrofit2.Call
 

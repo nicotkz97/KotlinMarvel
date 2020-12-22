@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.marvelkt.Movie
+import com.example.marvelkt.Modele.Données.Movie
 import com.example.marvelkt.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.layout_item.view.*

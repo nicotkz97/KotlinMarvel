@@ -1,10 +1,12 @@
-package com.example.marvelkt
+package com.example.marvelkt.VueModele
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
-import android.widget.Toast
+import com.example.marvelkt.Vue.Activity_menu
+import com.example.marvelkt.R
+import com.example.marvelkt.Modele.Données.database
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.login.*
 import kotlinx.android.synthetic.main.register.*
